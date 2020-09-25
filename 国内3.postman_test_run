@@ -1,0 +1,834 @@
+{
+	"id": "eb2fd8bf-d1d2-4423-9952-57db01c132f2",
+	"name": "国内",
+	"allTests": [],
+	"timestamp": "2020-09-25T03:21:34.657Z",
+	"collection_id": "3a10bb0d-6c93-4dca-8930-96d71e6d4340",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "9fdaaa92-a593-44a6-a5b8-df4ce1e97b28",
+	"data": [],
+	"delay": 1000,
+	"count": 17,
+	"collection": {
+		"id": "3a10bb0d-6c93-4dca-8930-96d71e6d4340",
+		"name": "国内",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"c3e1709e-88fc-4d53-86ad-280d7e5e87c3",
+			"47083b11-6f69-49c9-a041-78923cd04286",
+			"e04bf492-f054-4980-8ca1-83607ff658cb",
+			"eb0c5376-0e65-4a3b-8ed3-49f6b530714a",
+			"a20728bc-5ab8-4f33-97ad-4ef549452cf9",
+			"5fb16d5f-90f1-4575-97d3-cfa97fcb4788",
+			"4642a9e5-b7dc-4117-aa0c-e3e8bdeff792",
+			"f2b48054-7cd9-4991-9123-3ec66aaf2d67",
+			"507db157-a471-45d1-b2a0-b61d7c0ed7a7",
+			"2bf03461-168e-4f0c-ae09-53e7324cdab2",
+			"82446abf-513f-4c03-aa73-eaddf0e01189"
+		],
+		"folders_order": [],
+		"owner": "5174334",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "更新端口",
+			"id": "c3e1709e-88fc-4d53-86ad-280d7e5e87c3",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"990",
+				"835",
+				"762",
+				"725",
+				"687",
+				"672",
+				"711",
+				"708",
+				"758",
+				"730",
+				"781",
+				"787",
+				"773",
+				"776",
+				"744",
+				"730",
+				"705"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "705",
+			"totalRequestTime": 12874,
+			"iterationResults": {}
+		},
+		{
+			"name": "查询port列表",
+			"id": "47083b11-6f69-49c9-a041-78923cd04286",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"843",
+				"799",
+				"837",
+				"800",
+				"806",
+				"861",
+				"819",
+				"812",
+				"842",
+				"823",
+				"902",
+				"837",
+				"832",
+				"1052",
+				"833",
+				"829",
+				"842"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "842",
+			"totalRequestTime": 14369,
+			"iterationResults": {}
+		},
+		{
+			"name": "查询port详情",
+			"id": "e04bf492-f054-4980-8ca1-83607ff658cb",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"189",
+				"668",
+				"670",
+				"184",
+				"677",
+				"686",
+				"184",
+				"678",
+				"677",
+				"183",
+				"668",
+				"688",
+				"673",
+				"832",
+				"186",
+				"172",
+				"690"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "690",
+			"totalRequestTime": 8705,
+			"iterationResults": {}
+		},
+		{
+			"name": "查询VPC列表",
+			"id": "eb0c5376-0e65-4a3b-8ed3-49f6b530714a",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"52",
+				"55",
+				"52",
+				"54",
+				"55",
+				"57",
+				"51",
+				"55",
+				"56",
+				"52",
+				"55",
+				"55",
+				"186",
+				"55",
+				"55",
+				"52",
+				"52"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "52",
+			"totalRequestTime": 1049,
+			"iterationResults": {}
+		},
+		{
+			"name": "查询VPC详情",
+			"id": "a20728bc-5ab8-4f33-97ad-4ef549452cf9",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"44",
+				"44",
+				"44",
+				"45",
+				"45",
+				"48",
+				"44",
+				"44",
+				"44",
+				"44",
+				"44",
+				"45",
+				"44",
+				"50",
+				"45",
+				"45",
+				"43"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "43",
+			"totalRequestTime": 762,
+			"iterationResults": {}
+		},
+		{
+			"name": "创建VPC",
+			"id": "5fb16d5f-90f1-4575-97d3-cfa97fcb4788",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"1835",
+				"1728",
+				"1680",
+				"1938",
+				"1644",
+				"1683",
+				"1680",
+				"2197",
+				"1629",
+				"1662",
+				"1593",
+				"1549",
+				"1975",
+				"1814",
+				"1714",
+				"1929",
+				"1957"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "1957",
+			"totalRequestTime": 30207,
+			"iterationResults": {}
+		},
+		{
+			"name": "删除VPC",
+			"id": "4642a9e5-b7dc-4117-aa0c-e3e8bdeff792",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"2243",
+				"2298",
+				"2189",
+				"2178",
+				"2598",
+				"2511",
+				"2233",
+				"2196",
+				"2545",
+				"2476",
+				"2264",
+				"2273",
+				"2119",
+				"2204",
+				"2675",
+				"2591",
+				"2462"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "2462",
+			"totalRequestTime": 40055,
+			"iterationResults": {}
+		},
+		{
+			"name": "查询EIP列表",
+			"id": "f2b48054-7cd9-4991-9123-3ec66aaf2d67",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"738",
+				"894",
+				"734",
+				"718",
+				"974",
+				"743",
+				"762",
+				"747",
+				"756",
+				"738",
+				"736",
+				"755",
+				"745",
+				"738",
+				"728",
+				"745",
+				"719"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "719",
+			"totalRequestTime": 12970,
+			"iterationResults": {}
+		},
+		{
+			"name": "查询EIP详情",
+			"id": "507db157-a471-45d1-b2a0-b61d7c0ed7a7",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"315",
+				"319",
+				"344",
+				"388",
+				"484",
+				"341",
+				"352",
+				"325",
+				"347",
+				"321",
+				"346",
+				"326",
+				"328",
+				"358",
+				"353",
+				"352",
+				"337"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "337",
+			"totalRequestTime": 5936,
+			"iterationResults": {}
+		},
+		{
+			"name": "创建EIP",
+			"id": "2bf03461-168e-4f0c-ae09-53e7324cdab2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"1718",
+				"1695",
+				"1695",
+				"1685",
+				"1981",
+				"1752",
+				"1885",
+				"1887",
+				"1765",
+				"1807",
+				"1680",
+				"1748",
+				"1713",
+				"1811",
+				"1999",
+				"1944",
+				"1676"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "1676",
+			"totalRequestTime": 30441,
+			"iterationResults": {}
+		},
+		{
+			"name": "删除EIP",
+			"id": "82446abf-513f-4c03-aa73-eaddf0e01189",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"6424",
+				"6333",
+				"6136",
+				"6173",
+				"6391",
+				"6223",
+				"6198",
+				"6231",
+				"6244",
+				"6523",
+				"6399",
+				"7429",
+				"7177",
+				"7218",
+				"7015",
+				"7050",
+				"6934"
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			],
+			"time": "6934",
+			"totalRequestTime": 112098,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 269466,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "更新端口",
+			"id": "c3e1709e-88fc-4d53-86ad-280d7e5e87c3",
+			"url": "https://iecs.myhuaweicloud.com/v1/ports/047237a7-7114-46f9-86b0-9aeec49aba00",
+			"time": "705",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "查询port列表",
+			"id": "47083b11-6f69-49c9-a041-78923cd04286",
+			"url": "https://iecs.myhuaweicloud.com/v1/ports",
+			"time": "842",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "查询port详情",
+			"id": "e04bf492-f054-4980-8ca1-83607ff658cb",
+			"url": "https://iecs.myhuaweicloud.com/v1/ports/047237a7-7114-46f9-86b0-9aeec49aba00",
+			"time": "690",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "查询VPC列表",
+			"id": "eb0c5376-0e65-4a3b-8ed3-49f6b530714a",
+			"url": "https://iecs.myhuaweicloud.com/v1/vpcs",
+			"time": "52",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "查询VPC详情",
+			"id": "a20728bc-5ab8-4f33-97ad-4ef549452cf9",
+			"url": "https://iecs.myhuaweicloud.com/v1/vpcs/94dff437-f8f5-11ea-9cc5-fa165cac12b3",
+			"time": "43",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "创建VPC",
+			"id": "5fb16d5f-90f1-4575-97d3-cfa97fcb4788",
+			"url": "https://iecs.myhuaweicloud.com/v1/vpcs",
+			"time": "1957",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "删除VPC",
+			"id": "4642a9e5-b7dc-4117-aa0c-e3e8bdeff792",
+			"url": "https://iecs.myhuaweicloud.com/v1/vpcs/3bf8dfb6-fede-11ea-8f50-fa165e44e02c",
+			"time": "2462",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "查询EIP列表",
+			"id": "f2b48054-7cd9-4991-9123-3ec66aaf2d67",
+			"url": "https://iecs.myhuaweicloud.com/v1/publicips",
+			"time": "719",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "查询EIP详情",
+			"id": "507db157-a471-45d1-b2a0-b61d7c0ed7a7",
+			"url": "https://iecs.myhuaweicloud.com/v1/publicips/37bfe27d-2fbe-4751-8a5b-ef580e6a8bfa",
+			"time": "337",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "创建EIP",
+			"id": "2bf03461-168e-4f0c-ae09-53e7324cdab2",
+			"url": "https://iecs.myhuaweicloud.com/v1/publicips",
+			"time": "1676",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "删除EIP",
+			"id": "82446abf-513f-4c03-aa73-eaddf0e01189",
+			"url": "https://iecs.myhuaweicloud.com/v1/publicips/26535c84-86a0-414e-9f37-bdf31ec3ff84",
+			"time": "6934",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
