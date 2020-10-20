@@ -1,0 +1,19 @@
+import requests
+import time
+
+url = 'https://iecs.myhuaweicloud.com/v1/ports/9f4ad224-c4a2-4295-9fe9-bc342e27957d'
+headers = {
+    'Content-Type': 'application/json'
+}
+
+bind_params = {}
+unbind_params = {}
+
+should_bind = True
+interval = 10
+
+while True:
+    params = bind_params if should_bind else unbind_params
+    requests.request(method='PUT', url=url, json={}, params=params, headers=headers, timeout=30, verify=False)
+    should_bind = not should_bind
+    time.sleep(interval)
