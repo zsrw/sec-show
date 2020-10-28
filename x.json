@@ -274,3 +274,69 @@
         }
     ]
 }
+
+{
+    "count": 3,
+    "sites": [
+        {
+            "id": "3d50890a-d5a7-11ea-9538-fa165cf67eaf",
+            "name": "intl-asia-jakarta-001",
+            "city": "jakarta",
+            "i18n_city": "雅加达",
+            "province": "jakarta",
+            "i18n_province": "jakarta",
+            "area": "asia",
+            "i18n_area": "asia",
+            "country": "indonesia",
+            "i18n_country": "印度尼西亚",
+            "operator": {
+                "id": "4",
+                "name": "britishtelecom",
+                "i18n_name": "britishtelecom",
+                "sa": "BT"
+            },
+            "status": "Normal",
+            "city_short_name": ""
+        },
+        {
+            "id": "53d145af-ee88-11ea-b323-fa165cf67eaf",
+            "name": "intl-asia-japan",
+            "city": "tokyo",
+            "i18n_city": "东京",
+            "province": "tokyo",
+            "i18n_province": "tokyo",
+            "area": "asia",
+            "i18n_area": "asia",
+            "country": "japan",
+            "i18n_country": "日本",
+            "operator": {
+                "id": "4",
+                "name": "britishtelecom",
+                "i18n_name": "britishtelecom",
+                "sa": "BT"
+            },
+            "status": "Normal",
+            "city_short_name": ""
+        },
+        {
+            "id": "bcfa4834-ddd1-11ea-9538-fa165cf67eaf",
+            "name": "intl-asia-malaysia",
+            "city": "kuala lumpur",
+            "i18n_city": "吉隆坡",
+            "province": "kuala lumpur",
+            "i18n_province": "kuala lumpur",
+            "area": "asia",
+            "i18n_area": "asia",
+            "country": "malaysia",
+            "i18n_country": "马来西亚",
+            "operator": {
+                "id": "4",
+                "name": "britishtelecom",
+                "i18n_name": "britishtelecom",
+                "sa": "BT"
+            },
+            "status": "Normal",
+            "city_short_name": ""
+        }
+    ]
+}
