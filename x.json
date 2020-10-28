@@ -1,0 +1,125 @@
+{
+    "count": 6,
+    "sites": [
+        {
+            "id": "d3d8fd61-b313-11ea-82fa-fa165cf67eaf",
+            "name": "cn-east-jiangsu-001",
+            "city": "nanjing",
+            "i18n_city": "南京市",
+            "province": "jiangsu",
+            "i18n_province": "江苏",
+            "area": "east",
+            "i18n_area": "华东地区",
+            "country": "china",
+            "i18n_country": "中国",
+            "operator": {
+                "id": "99",
+                "name": "bgp",
+                "i18n_name": "bgp",
+                "sa": "BGP"
+            },
+            "status": "Normal",
+            "city_short_name": ""
+        },
+        {
+            "id": "db175dab-acb5-11ea-9310-fa165cf67eaf",
+            "name": "cn-east-zhejiang-001",
+            "city": "hangzhou",
+            "i18n_city": "杭州市",
+            "province": "zhejiang",
+            "i18n_province": "浙江",
+            "area": "east",
+            "i18n_area": "华东地区",
+            "country": "china",
+            "i18n_country": "中国",
+            "operator": {
+                "id": "99",
+                "name": "bgp",
+                "i18n_name": "bgp",
+                "sa": "BGP"
+            },
+            "status": "Normal",
+            "city_short_name": ""
+        },
+        {
+            "id": "d71ad3f5-b51a-11ea-82fa-fa165cf67eaf",
+            "name": "cn-west-hubei-001",
+            "city": "wuhan",
+            "i18n_city": "武汉市",
+            "province": "hubei",
+            "i18n_province": "湖北",
+            "area": "central",
+            "i18n_area": "华中地区",
+            "country": "wuhan",
+            "i18n_country": "wuhan",
+            "operator": {
+                "id": "99",
+                "name": "bgp",
+                "i18n_name": "bgp",
+                "sa": "BGP"
+            },
+            "status": "Normal",
+            "city_short_name": ""
+        },
+        {
+            "id": "e7f9f953-b51a-11ea-82fa-fa165cf67eaf",
+            "name": "cn-west-shanxi-001",
+            "city": "xi'an",
+            "i18n_city": "西安市",
+            "province": "shaanxi",
+            "i18n_province": "陕西",
+            "area": "northwest",
+            "i18n_area": "西北地区",
+            "country": "china",
+            "i18n_country": "中国",
+            "operator": {
+                "id": "99",
+                "name": "bgp",
+                "i18n_name": "bgp",
+                "sa": "BGP"
+            },
+            "status": "Normal",
+            "city_short_name": ""
+        },
+        {
+            "id": "dedcd00f-b51a-11ea-82fa-fa165cf67eaf",
+            "name": "cn-west-sichuan-001",
+            "city": "chengdu",
+            "i18n_city": "成都市",
+            "province": "sichuan",
+            "i18n_province": "四川",
+            "area": "southwest",
+            "i18n_area": "西南地区",
+            "country": "china",
+            "i18n_country": "中国",
+            "operator": {
+                "id": "99",
+                "name": "bgp",
+                "i18n_name": "bgp",
+                "sa": "BGP"
+            },
+            "status": "Normal",
+            "city_short_name": ""
+        },
+        {
+            "id": "1c284677-12c7-11eb-867b-fa165cf67eaf",
+            "name": "hangzhou-cdn-chinamobile",
+            "city": "hangzhou",
+            "i18n_city": "杭州市",
+            "province": "zhejiang",
+            "i18n_province": "浙江",
+            "area": "east",
+            "i18n_area": "华东地区",
+            "country": "china",
+            "i18n_country": "中国",
+            "operator": {
+                "id": "3",
+                "name": "chinamobile",
+                "i18n_name": "中国移动",
+                "sa": "CMCC"
+            },
+            "status": "Normal",
+            "city_short_name": ""
+        }
+    ]
+}
