@@ -123,3 +123,154 @@
         }
     ]
 }
+
+
+{
+    "count": 4,
+    "sites": [
+        {
+            "id": "ac3034a0-843c-11ea-a3fa-fa163e8ac569",
+            "name": "cn-east-jiangsu-002",
+            "city": "wuxi",
+            "i18n_city": "无锡市",
+            "province": "jiangsu",
+            "i18n_province": "江苏",
+            "area": "east",
+            "i18n_area": "华东",
+            "country": "china",
+            "i18n_country": "中国",
+            "operator": {
+                "id": "1",
+                "name": "chinatelecom",
+                "sa": "CTCC"
+            },
+            "status": "Normal",
+            "city_short_name": "WX",
+            "pools": [
+                {
+                    "id": "90823880-6b34-63a5-93df-93cd85dae85e",
+                    "site_id": "ac3034a0-843c-11ea-a3fa-fa163e8ac569",
+                    "display_name": "",
+                    "operator": {
+                        "id": "1",
+                        "name": "chinatelecom",
+                        "i18n_name": "中国电信",
+                        "sa": "CTCC"
+                    },
+                    "pool_id": "5_bgp_990c",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                }
+            ]
+        },
+        {
+            "id": "0e692e89-d03d-11e9-b8b8-fa163e8ac569",
+            "name": "cn-east-jiangsu-nanjing-chinamobile",
+            "city": "nanjing",
+            "i18n_city": "南京市",
+            "province": "jiangsu",
+            "i18n_province": "江苏",
+            "area": "east",
+            "i18n_area": "华东",
+            "country": "china",
+            "i18n_country": "中国",
+            "operator": {
+                "id": "3",
+                "name": "chinamobile",
+                "sa": "CMCC"
+            },
+            "status": "Normal",
+            "city_short_name": "NJ",
+            "pools": [
+                {
+                    "id": "319e3df5-06e9-56d4-d384-cbb83423b0e1",
+                    "site_id": "0e692e89-d03d-11e9-b8b8-fa163e8ac569",
+                    "display_name": "",
+                    "operator": {
+                        "id": "3",
+                        "name": "chinamobile",
+                        "i18n_name": "中国移动",
+                        "sa": "CMCC"
+                    },
+                    "pool_id": "5_bgp",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                }
+            ]
+        },
+        {
+            "id": "4cd63ef4-83e3-11ea-a55d-fa163e3e961b",
+            "name": "cn-south-guangdong-001",
+            "city": "dongguan",
+            "i18n_city": "东莞市",
+            "province": "guangdong",
+            "i18n_province": "广东",
+            "area": "south",
+            "i18n_area": "华南",
+            "country": "china",
+            "i18n_country": "中国",
+            "operator": {
+                "id": "1",
+                "name": "chinatelecom",
+                "sa": "CTCC"
+            },
+            "status": "Normal",
+            "city_short_name": "DG",
+            "pools": [
+                {
+                    "id": "73376298-39e7-29cf-1b9c-e107b1db1cba",
+                    "site_id": "4cd63ef4-83e3-11ea-a55d-fa163e3e961b",
+                    "display_name": "",
+                    "operator": {
+                        "id": "1",
+                        "name": "chinatelecom",
+                        "i18n_name": "中国电信",
+                        "sa": "CTCC"
+                    },
+                    "pool_id": "5_bgp_990e",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                }
+            ]
+        },
+        {
+            "id": "93ce907f-7876-11ea-a55d-fa163e3e961b",
+            "name": "hunan-yidong",
+            "city": "xiangtan",
+            "i18n_city": "湘潭市",
+            "province": "hunan",
+            "i18n_province": "湖南",
+            "area": "central",
+            "i18n_area": "华中",
+            "country": "china",
+            "i18n_country": "中国",
+            "operator": {
+                "id": "3",
+                "name": "chinamobile",
+                "sa": "CMCC"
+            },
+            "status": "Normal",
+            "city_short_name": "XT",
+            "pools": [
+                {
+                    "id": "4fe707d0-004a-07f5-4049-4868654e7990",
+                    "site_id": "93ce907f-7876-11ea-a55d-fa163e3e961b",
+                    "display_name": "",
+                    "operator": {
+                        "id": "3",
+                        "name": "chinamobile",
+                        "i18n_name": "中国移动",
+                        "sa": "CMCC"
+                    },
+                    "pool_id": "5_bgp_990b",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                }
+            ]
+        }
+    ]
+}
