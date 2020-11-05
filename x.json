@@ -1,5 +1,5 @@
 {
-    "count": 6,
+    "count": 7,
     "sites": [
         {
             "id": "d3d8fd61-b313-11ea-82fa-fa165cf67eaf",
@@ -15,11 +15,27 @@
             "operator": {
                 "id": "99",
                 "name": "bgp",
-                "i18n_name": "bgp",
                 "sa": "BGP"
             },
             "status": "Normal",
-            "city_short_name": ""
+            "city_short_name": "NJ",
+            "pools": [
+                {
+                    "id": "4fb4d1ca-fdfa-8f0e-4f7a-aefa457d5b03",
+                    "site_id": "d3d8fd61-b313-11ea-82fa-fa165cf67eaf",
+                    "display_name": "",
+                    "operator": {
+                        "id": "99",
+                        "name": "bgp",
+                        "i18n_name": "bgp",
+                        "sa": "BGP"
+                    },
+                    "pool_id": "5_bgp_900f",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                }
+            ]
         },
         {
             "id": "db175dab-acb5-11ea-9310-fa165cf67eaf",
@@ -35,11 +51,27 @@
             "operator": {
                 "id": "99",
                 "name": "bgp",
-                "i18n_name": "bgp",
                 "sa": "BGP"
             },
             "status": "Normal",
-            "city_short_name": ""
+            "city_short_name": "HZ",
+            "pools": [
+                {
+                    "id": "8499a73b-8ecc-e4d8-1480-8f13996b9f23",
+                    "site_id": "db175dab-acb5-11ea-9310-fa165cf67eaf",
+                    "display_name": "",
+                    "operator": {
+                        "id": "99",
+                        "name": "bgp",
+                        "i18n_name": "bgp",
+                        "sa": "BGP"
+                    },
+                    "pool_id": "5_bgp_900e",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                }
+            ]
         },
         {
             "id": "d71ad3f5-b51a-11ea-82fa-fa165cf67eaf",
@@ -55,11 +87,27 @@
             "operator": {
                 "id": "99",
                 "name": "bgp",
-                "i18n_name": "bgp",
                 "sa": "BGP"
             },
             "status": "Normal",
-            "city_short_name": ""
+            "city_short_name": "WH",
+            "pools": [
+                {
+                    "id": "0efd07ea-c41f-2d23-665d-d1b2f0da647a",
+                    "site_id": "d71ad3f5-b51a-11ea-82fa-fa165cf67eaf",
+                    "display_name": "",
+                    "operator": {
+                        "id": "99",
+                        "name": "bgp",
+                        "i18n_name": "bgp",
+                        "sa": "BGP"
+                    },
+                    "pool_id": "5_bgp_900d",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                }
+            ]
         },
         {
             "id": "e7f9f953-b51a-11ea-82fa-fa165cf67eaf",
@@ -75,11 +123,27 @@
             "operator": {
                 "id": "99",
                 "name": "bgp",
-                "i18n_name": "bgp",
                 "sa": "BGP"
             },
             "status": "Normal",
-            "city_short_name": ""
+            "city_short_name": "XA",
+            "pools": [
+                {
+                    "id": "68113bbd-c6ef-5163-fc98-91bc38597031",
+                    "site_id": "e7f9f953-b51a-11ea-82fa-fa165cf67eaf",
+                    "display_name": "",
+                    "operator": {
+                        "id": "99",
+                        "name": "bgp",
+                        "i18n_name": "bgp",
+                        "sa": "BGP"
+                    },
+                    "pool_id": "5_bgp_900w",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                }
+            ]
         },
         {
             "id": "dedcd00f-b51a-11ea-82fa-fa165cf67eaf",
@@ -95,11 +159,27 @@
             "operator": {
                 "id": "99",
                 "name": "bgp",
-                "i18n_name": "bgp",
                 "sa": "BGP"
             },
             "status": "Normal",
-            "city_short_name": ""
+            "city_short_name": "CD",
+            "pools": [
+                {
+                    "id": "75582fb4-f689-4521-1348-3656065bd48e",
+                    "site_id": "dedcd00f-b51a-11ea-82fa-fa165cf67eaf",
+                    "display_name": "",
+                    "operator": {
+                        "id": "99",
+                        "name": "bgp",
+                        "i18n_name": "bgp",
+                        "sa": "BGP"
+                    },
+                    "pool_id": "5_bgp_900g",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                }
+            ]
         },
         {
             "id": "1c284677-12c7-11eb-867b-fa165cf67eaf",
@@ -115,233 +195,28 @@
             "operator": {
                 "id": "3",
                 "name": "chinamobile",
-                "i18n_name": "中国移动",
                 "sa": "CMCC"
             },
             "status": "Normal",
-            "city_short_name": ""
-        }
-    ]
-}
-
-
-{
-    "count": 4,
-    "sites": [
-        {
-            "id": "ac3034a0-843c-11ea-a3fa-fa163e8ac569",
-            "name": "cn-east-jiangsu-002",
-            "city": "wuxi",
-            "i18n_city": "无锡市",
-            "province": "jiangsu",
-            "i18n_province": "江苏",
-            "area": "east",
-            "i18n_area": "华东",
-            "country": "china",
-            "i18n_country": "中国",
-            "operator": {
-                "id": "1",
-                "name": "chinatelecom",
-                "sa": "CTCC"
-            },
-            "status": "Normal",
-            "city_short_name": "WX",
+            "city_short_name": "",
             "pools": [
                 {
-                    "id": "90823880-6b34-63a5-93df-93cd85dae85e",
-                    "site_id": "ac3034a0-843c-11ea-a3fa-fa163e8ac569",
-                    "display_name": "",
-                    "operator": {
-                        "id": "1",
-                        "name": "chinatelecom",
-                        "i18n_name": "中国电信",
-                        "sa": "CTCC"
-                    },
-                    "pool_id": "5_bgp_990c",
-                    "shared": true,
-                    "ip_version": "4",
-                    "charge_mode": "normal"
-                }
-            ]
-        },
-        {
-            "id": "0e692e89-d03d-11e9-b8b8-fa163e8ac569",
-            "name": "cn-east-jiangsu-nanjing-chinamobile",
-            "city": "nanjing",
-            "i18n_city": "南京市",
-            "province": "jiangsu",
-            "i18n_province": "江苏",
-            "area": "east",
-            "i18n_area": "华东",
-            "country": "china",
-            "i18n_country": "中国",
-            "operator": {
-                "id": "3",
-                "name": "chinamobile",
-                "sa": "CMCC"
-            },
-            "status": "Normal",
-            "city_short_name": "NJ",
-            "pools": [
-                {
-                    "id": "319e3df5-06e9-56d4-d384-cbb83423b0e1",
-                    "site_id": "0e692e89-d03d-11e9-b8b8-fa163e8ac569",
-                    "display_name": "",
+                    "id": "c6bf08e5-1cd3-11eb-a07a-fa165cf67eaf",
+                    "site_id": "1c284677-12c7-11eb-867b-fa165cf67eaf",
+                    "display_name": "杭州移动",
                     "operator": {
                         "id": "3",
                         "name": "chinamobile",
                         "i18n_name": "中国移动",
                         "sa": "CMCC"
                     },
-                    "pool_id": "5_bgp",
+                    "pool_id": "5_900i_mobile",
                     "shared": true,
                     "ip_version": "4",
                     "charge_mode": "normal"
                 }
             ]
         },
-        {
-            "id": "4cd63ef4-83e3-11ea-a55d-fa163e3e961b",
-            "name": "cn-south-guangdong-001",
-            "city": "dongguan",
-            "i18n_city": "东莞市",
-            "province": "guangdong",
-            "i18n_province": "广东",
-            "area": "south",
-            "i18n_area": "华南",
-            "country": "china",
-            "i18n_country": "中国",
-            "operator": {
-                "id": "1",
-                "name": "chinatelecom",
-                "sa": "CTCC"
-            },
-            "status": "Normal",
-            "city_short_name": "DG",
-            "pools": [
-                {
-                    "id": "73376298-39e7-29cf-1b9c-e107b1db1cba",
-                    "site_id": "4cd63ef4-83e3-11ea-a55d-fa163e3e961b",
-                    "display_name": "",
-                    "operator": {
-                        "id": "1",
-                        "name": "chinatelecom",
-                        "i18n_name": "中国电信",
-                        "sa": "CTCC"
-                    },
-                    "pool_id": "5_bgp_990e",
-                    "shared": true,
-                    "ip_version": "4",
-                    "charge_mode": "normal"
-                }
-            ]
-        },
-        {
-            "id": "93ce907f-7876-11ea-a55d-fa163e3e961b",
-            "name": "hunan-yidong",
-            "city": "xiangtan",
-            "i18n_city": "湘潭市",
-            "province": "hunan",
-            "i18n_province": "湖南",
-            "area": "central",
-            "i18n_area": "华中",
-            "country": "china",
-            "i18n_country": "中国",
-            "operator": {
-                "id": "3",
-                "name": "chinamobile",
-                "sa": "CMCC"
-            },
-            "status": "Normal",
-            "city_short_name": "XT",
-            "pools": [
-                {
-                    "id": "4fe707d0-004a-07f5-4049-4868654e7990",
-                    "site_id": "93ce907f-7876-11ea-a55d-fa163e3e961b",
-                    "display_name": "",
-                    "operator": {
-                        "id": "3",
-                        "name": "chinamobile",
-                        "i18n_name": "中国移动",
-                        "sa": "CMCC"
-                    },
-                    "pool_id": "5_bgp_990b",
-                    "shared": true,
-                    "ip_version": "4",
-                    "charge_mode": "normal"
-                }
-            ]
-        }
-    ]
-}
-
-{
-    "count": 3,
-    "sites": [
-        {
-            "id": "3d50890a-d5a7-11ea-9538-fa165cf67eaf",
-            "name": "intl-asia-jakarta-001",
-            "city": "jakarta",
-            "i18n_city": "雅加达",
-            "province": "jakarta",
-            "i18n_province": "jakarta",
-            "area": "asia",
-            "i18n_area": "asia",
-            "country": "indonesia",
-            "i18n_country": "印度尼西亚",
-            "operator": {
-                "id": "4",
-                "name": "britishtelecom",
-                "i18n_name": "britishtelecom",
-                "sa": "BT"
-            },
-            "status": "Normal",
-            "city_short_name": ""
-        },
-        {
-            "id": "53d145af-ee88-11ea-b323-fa165cf67eaf",
-            "name": "intl-asia-japan",
-            "city": "tokyo",
-            "i18n_city": "东京",
-            "province": "tokyo",
-            "i18n_province": "tokyo",
-            "area": "asia",
-            "i18n_area": "asia",
-            "country": "japan",
-            "i18n_country": "日本",
-            "operator": {
-                "id": "4",
-                "name": "britishtelecom",
-                "i18n_name": "britishtelecom",
-                "sa": "BT"
-            },
-            "status": "Normal",
-            "city_short_name": ""
-        },
-        {
-            "id": "bcfa4834-ddd1-11ea-9538-fa165cf67eaf",
-            "name": "intl-asia-malaysia",
-            "city": "kuala lumpur",
-            "i18n_city": "吉隆坡",
-            "province": "kuala lumpur",
-            "i18n_province": "kuala lumpur",
-            "area": "asia",
-            "i18n_area": "asia",
-            "country": "malaysia",
-            "i18n_country": "马来西亚",
-            "operator": {
-                "id": "4",
-                "name": "britishtelecom",
-                "i18n_name": "britishtelecom",
-                "sa": "BT"
-            },
-            "status": "Normal",
-            "city_short_name": ""
-        }
-    ]
-}
-
-
         {
             "id": "b3db1a75-1aca-11eb-9964-fa165c13ae1a",
             "name": "yangzhou-cdn-tri-lan",
@@ -408,3 +283,5 @@
                 }
             ]
         }
+    ]
+}
