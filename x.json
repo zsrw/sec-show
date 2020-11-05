@@ -340,3 +340,71 @@
         }
     ]
 }
+
+
+        {
+            "id": "b3db1a75-1aca-11eb-9964-fa165c13ae1a",
+            "name": "yangzhou-cdn-tri-lan",
+            "city": "yangzhou",
+            "i18n_city": "扬州市",
+            "province": "jiangsu",
+            "i18n_province": "江苏",
+            "area": "east",
+            "i18n_area": "华东地区",
+            "country": "china",
+            "i18n_country": "中国",
+            "operator": {
+                "id": "1",
+                "name": "chinatelecom",
+                "sa": "CTCC"
+            },
+            "status": "Normal",
+            "city_short_name": "YZ",
+            "pools": [
+                {
+                    "id": "ef64c66b-1acb-11eb-be34-fa165ea6060e",
+                    "site_id": "b3db1a75-1aca-11eb-9964-fa165c13ae1a",
+                    "display_name": "扬州移动",
+                    "operator": {
+                        "id": "3",
+                        "name": "chinamobile",
+                        "i18n_name": "中国移动",
+                        "sa": "CMCC"
+                    },
+                    "pool_id": "5_900x_mobile",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                },
+                {
+                    "id": "13e85fa6-1acc-11eb-be34-fa165ea6060e",
+                    "site_id": "b3db1a75-1aca-11eb-9964-fa165c13ae1a",
+                    "display_name": "扬州联通",
+                    "operator": {
+                        "id": "2",
+                        "name": "chinaunicom",
+                        "i18n_name": "中国联通",
+                        "sa": "CUCC"
+                    },
+                    "pool_id": "5_900x_union",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                },
+                {
+                    "id": "19260892-1acb-11eb-be34-fa165ea6060e",
+                    "site_id": "b3db1a75-1aca-11eb-9964-fa165c13ae1a",
+                    "display_name": "扬州电信",
+                    "operator": {
+                        "id": "1",
+                        "name": "chinatelecom",
+                        "i18n_name": "中国电信",
+                        "sa": "CTCC"
+                    },
+                    "pool_id": "5_900x_telcom",
+                    "shared": true,
+                    "ip_version": "4",
+                    "charge_mode": "normal"
+                }
+            ]
+        }
